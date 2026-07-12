@@ -12,7 +12,7 @@ its own. It should. But it makes wrong assumptions and runs with them, it
 overbuilds, it calls a one-off demo "tested," and it can't tell a real problem
 from a loud one. So the loop has to stop at a fixed set of points and wait for a
 human. Those points are the gates. Work them well and a mediocre tool stack ships
-good software; work them badly and the best tools on the market ship you a fast,
+good software. Work them badly and the best tools on the market ship you a fast,
 tested, well-reviewed mistake. **The gates are the asset. The tools are a
 disposable appendix.**
 
@@ -77,7 +77,7 @@ and you just fail faster, with nicer tooling.
 ## What this sits next to
 
 - **The Grow Kit** — [loop-and-gate-grow-kit](https://github.com/slogsdon/loop-and-gate-grow-kit)
-  — is the other half of the loop. This kit takes an idea to shipped software; the
+  — is the other half of the loop. This kit takes an idea to shipped software. The
   Grow Kit takes shipped software to the right people and reads whether it worked.
   They close a loop through the Foundation vault: the Grow Kit writes market signals
   where this kit's Gate 0 reads them to decide what to build next. Same method, both

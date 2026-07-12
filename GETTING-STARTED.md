@@ -75,7 +75,7 @@ cd loop-and-gate-build-kit
 ```
 
 (`git` usually comes with your system. If it says git isn't found, on Mac just
-run `git` once and it'll offer to install the tools; on Linux, install the `git`
+run `git` once and it'll offer to install the tools. On Linux, install the `git`
 package.)
 
 ## Step 4 — run setup
