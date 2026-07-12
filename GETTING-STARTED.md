@@ -22,7 +22,7 @@ Three layers, bottom to top:
 You need all three. This guide gets you all three.
 
 There's also an optional fourth layer underneath: the **Foundation kit**
-([second-brain-agent](https://github.com/YOUR_USERNAME/second-brain-agent)),
+([second-brain-agent](https://github.com/slogsdon/second-brain-agent)),
 which gives the AI a memory that survives between sessions and learns your voice
 and taste. It's the gentler on-ramp — it walks you through installing Claude Code
 step by step — so **if any of this feels like a lot, start with the Foundation
@@ -70,7 +70,7 @@ the terminal, open a new one, and try `claude --version` again.
 Still in the terminal, paste these two lines:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/loop-and-gate-build-kit.git
+git clone https://github.com/slogsdon/loop-and-gate-build-kit.git
 cd loop-and-gate-build-kit
 ```
 
@@ -147,7 +147,7 @@ wrong thing faster.
 - `reference/pipeline-snapshot.md` — the exact tools this uses today, and how to
   swap in your own.
 - The **Foundation kit** —
-  [second-brain-agent](https://github.com/YOUR_USERNAME/second-brain-agent) — is
+  [second-brain-agent](https://github.com/slogsdon/second-brain-agent) — is
   the companion that gives the AI a memory across sessions and learns your voice
   and taste. If you want the AI to remember your project between sessions and
   sound like you, set that up too — it's built to sit underneath this one, and
@@ -161,7 +161,7 @@ wrong thing faster.
 You have Claude Code. Then:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/loop-and-gate-build-kit.git
+git clone https://github.com/slogsdon/loop-and-gate-build-kit.git
 cd loop-and-gate-build-kit && ./scripts/setup.sh
 ```
 

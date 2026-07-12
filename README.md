@@ -36,7 +36,7 @@ first build (installing Claude Code, the pipeline plugins, and this kit).
 **Already run Claude Code?** Clone this repo and run setup:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/loop-and-gate-build-kit.git
+git clone https://github.com/slogsdon/loop-and-gate-build-kit.git
 cd loop-and-gate-build-kit && ./scripts/setup.sh
 ```
 
@@ -76,13 +76,13 @@ and you just fail faster, with nicer tooling.
 
 ## What this sits next to
 
-- **The Grow Kit** — [loop-and-gate-grow-kit](https://github.com/YOUR_USERNAME/loop-and-gate-grow-kit)
+- **The Grow Kit** — [loop-and-gate-grow-kit](https://github.com/slogsdon/loop-and-gate-grow-kit)
   — is the other half of the loop. This kit takes an idea to shipped software; the
   Grow Kit takes shipped software to the right people and reads whether it worked.
   They close a loop through the Foundation vault: the Grow Kit writes market signals
   where this kit's Gate 0 reads them to decide what to build next. Same method, both
   halves, one customer at the center.
-- **The Foundation kit** — [second-brain-agent](https://github.com/YOUR_USERNAME/second-brain-agent)
+- **The Foundation kit** — [second-brain-agent](https://github.com/slogsdon/second-brain-agent)
   — is the ground this stands on: cross-session memory, capture from your phone,
   and your voice/taste profiles. If it's present, the operating skill reads
   `vault/Profiles/` so gate framing matches how you write and judge, and logs each

@@ -56,5 +56,5 @@ Full walkthrough with nothing assumed: see GETTING-STARTED.md
 
 Want the AI to remember your project between sessions and sound like you?
 Install the companion Foundation kit (second-brain-agent) underneath this one:
-  https://github.com/YOUR_USERNAME/second-brain-agent
+  https://github.com/slogsdon/second-brain-agent
 EOF
