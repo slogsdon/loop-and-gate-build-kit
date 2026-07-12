@@ -1,7 +1,7 @@
 # The Gates
 
 The eleven points where an agentic build loop has to stop and wait for a human.
-The pipeline runs the stretches between them; the gates are where you decide.
+The pipeline runs the stretches between them. The gates are where you decide.
 This is the operating reference — the terse, runnable form. The narrative
 version with worked examples lives in the field guide.
 
@@ -20,7 +20,7 @@ change actually earns.
 _Lens: Both, and above the others. The master gate._
 
 - **Decide:** Right-size the process to the stakes. A typo fix doesn't get a spec
-  and a security pass; a billing change or a data migration gets all of it.
+  and a security pass. A billing change or a data migration gets all of it.
 - **Good judgment:** Read the blast radius first and let it set the process. Two
   gates for a copy tweak, all ten for anything touching money or data. Never
   confuse "I did all the steps" with "I did the right steps."
@@ -65,7 +65,7 @@ _Lens: Business._
 - **Not your lens:** Use the business-context step as a form, not an essay:
   persona, the problem in their words, what "fixed" looks like, how you'd measure
   it. Never done this? Ask one real customer and write their words, not your
-  paraphrase. The agent can clean up the note; it can't have the conversation.
+  paraphrase. The agent can clean up the note. It can't have the conversation.
 - **Failure modes:** Success defined as "it ships." A persona so broad it fits
   everyone and helps no one. Skipping this because you "already know."
 
@@ -184,10 +184,10 @@ _Lens: Engineering. Where a non-developer running a loop gets burned the most._
 _Lens: Engineering._
 
 - **Decide:** Match the spend to the current stage. Cheap work goes to cheap
-  models; the expensive ones are saved for where they earn it. Right-size infra
+  models. The expensive ones are saved for where they earn it. Right-size infra
   for the load you have, not the load you imagine.
 - **Good judgment:** Route by need — a classification or a cleanup doesn't need a
-  frontier model. Read the bill; know what your loop actually costs. Avoid both
+  frontier model. Read the bill. Know what your loop actually costs. Avoid both
   premature scaling and the lazy default of maximum-everything.
 - **Not your lens:** You don't need to be an infra expert to ask "what does this
   cost per run, and is there a cheaper model that's good enough here?" Make the
@@ -229,7 +229,7 @@ _Lens: Business._
 - **Good judgment:** Ship the requested fix to the requester first and close the
   loop with them personally. Don't ship risky changes into a window you can't
   watch. Use a limited rollout when the downside is real.
-- **Not your lens:** Mostly customer instinct; the cheap substitute is a rule —
+- **Not your lens:** Mostly customer instinct. The cheap substitute is a rule —
   ship to the person who asked first, tell them, then widen. Have the agent draft
   the "here's the thing you asked for" note, then edit it into your voice and
   send. Timing rule: don't deploy something you can't babysit right before you

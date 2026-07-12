@@ -6,7 +6,7 @@ The gates are the asset. The tools that fill the space between them are a
 commodity that reprices and renames every quarter. What follows is one working
 composition, verified against a live setup on **2026-07-12** — a snapshot, not the
 method. When these names change next quarter, the gates in `gates.md` don't. Never
-sell or anchor on this table; it's the appendix.
+sell or anchor on this table. It's the appendix.
 
 ## The composition
 

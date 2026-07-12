@@ -6,7 +6,7 @@ description: Run a change through the Loop & Gate human-decision gates. Use befo
 # Loop & Gate
 
 One job: stop the build loop at the points where a human has to decide, and make
-the decision well. The agent runs the stretches between gates; this skill runs
+the decision well. The agent runs the stretches between gates. This skill runs
 the gates.
 
 The full checklist for every gate is in `reference/gates.md` — read it when you
@@ -25,7 +25,7 @@ working gates on every change.
    - **Cosmetic and reversible** (copy tweak, a redirect, a style fix) → the
      minimum: "is this the right small fix?" and "ship it." Usually two gates.
    - **Unsure** → treat it as higher-stakes than it looks. Over-processing a small
-     thing costs minutes; under-processing a big one costs the weekend.
+     thing costs minutes. Under-processing a big one costs the weekend.
 3. State the chosen gate set to the human before proceeding. That statement is
    itself the Gate ∞ decision.
 
@@ -60,7 +60,7 @@ For each gate in the chosen set, in order:
   no skill filling them — they're pure judgment. Don't skip a gate because nothing
   automates it.
 - **Match rigor to blast radius, not to habit.** The same change doesn't get the
-  same process everywhere; Gate ∞ resets it each time.
+  same process everywhere. Gate ∞ resets it each time.
 - If the Foundation kit (second-brain-agent) is present, read `vault/Profiles/` for
   the human's voice and taste so gate framing and any drafted customer notes match
   how they'd write and judge. Log each gate decision — the call and the one-line why — to the vault
@@ -70,5 +70,5 @@ For each gate in the chosen set, in order:
 ## The pipeline underneath
 
 Which agent skills fill the space between the gates is a disposable, dated
-snapshot — see `reference/pipeline-snapshot.md`. Never anchor on the tools; anchor
+snapshot — see `reference/pipeline-snapshot.md`. Never anchor on the tools. Anchor
 on the gates. When the tool names change next quarter, the gates don't.
