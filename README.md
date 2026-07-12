@@ -20,23 +20,35 @@ disposable appendix.**
 
 | Path | What it is |
 |------|-----------|
+| `GETTING-STARTED.md` | Zero-assumptions walkthrough — start here if you're new to any of this. |
 | `reference/gates.md` | The eleven gates in runnable checklist form — the core asset. |
 | `skills/loop-and-gate/` | The operating skill: run a change through the gates it earns. |
 | `reference/pipeline-snapshot.md` | A dated snapshot of the public plugins that fill the space between the gates, with install commands. Labelled disposable on purpose. |
 | `templates/business-context.md` | A fill-in template for the business-context step (persona, opportunity, KPIs, GTM, risk). |
+| `scripts/setup.sh` | Installs the skill and prints the two plugin commands. Run once. |
 
 ## Install
 
-Drop the skill where your agent discovers skills. For Claude Code:
+**New to this?** Read **[GETTING-STARTED.md](GETTING-STARTED.md)** — it assumes no
+coding background and no terminal experience, and gets you from nothing to your
+first build (installing Claude Code, the pipeline plugins, and this kit).
+
+**Already run Claude Code?** Clone this repo and run setup:
 
 ```bash
-ln -s "$(pwd)/skills/loop-and-gate" ~/.claude/skills/loop-and-gate
-# or symlink into a project's .claude/skills/
+git clone https://github.com/YOUR_USERNAME/loop-and-gate-build-kit.git
+cd loop-and-gate-build-kit && ./scripts/setup.sh
 ```
 
-Then, at any build decision, invoke `loop-and-gate`. It runs **Gate ∞** first to
-decide how much process the change earns, then walks you through only the gates
-that change actually needs.
+`setup.sh` installs the `loop-and-gate` skill and prints the two plugin commands
+to paste into Claude Code (the build pipeline the gates sit on — see
+`reference/pipeline-snapshot.md`). Then, at any build decision, run
+`/loop-and-gate`: it runs **Gate ∞** first to decide how much process the change
+earns, then walks you through only the gates that change actually needs.
+
+You need the pipeline plugins too — the gates are the judgment layer *on top of*
+a build loop, not the loop itself. The setup script and getting-started guide
+both walk you through installing them.
 
 ## What it looks like
 
