@@ -53,4 +53,8 @@ Tell it what you want to build. It will stop and ask you at each point where
 a human has to decide — that's the whole idea.
 
 Full walkthrough with nothing assumed: see GETTING-STARTED.md
+
+Want the AI to remember your project between sessions and sound like you?
+Install the companion Foundation kit (second-brain-agent) underneath this one:
+  https://github.com/YOUR_USERNAME/second-brain-agent
 EOF

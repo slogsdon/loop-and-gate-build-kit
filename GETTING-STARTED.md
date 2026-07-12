@@ -21,6 +21,14 @@ Three layers, bottom to top:
 
 You need all three. This guide gets you all three.
 
+There's also an optional fourth layer underneath: the **Foundation kit**
+([second-brain-agent](https://github.com/YOUR_USERNAME/second-brain-agent)),
+which gives the AI a memory that survives between sessions and learns your voice
+and taste. It's the gentler on-ramp — it walks you through installing Claude Code
+step by step — so **if any of this feels like a lot, start with the Foundation
+kit first**, then come back here and add this one on top. The two are built to
+compose.
+
 ## Step 0 — what you need
 
 - A Mac or Linux computer. (On Windows, install "WSL" first — search "install
@@ -138,10 +146,13 @@ wrong thing faster.
   language, each with a "what to do if this isn't your strength."
 - `reference/pipeline-snapshot.md` — the exact tools this uses today, and how to
   swap in your own.
-- The **Foundation kit** (second-brain-agent) is a companion that gives the AI a
-  memory across sessions and learns your voice and taste. If you want the AI to
-  remember your project between sessions, set that up too — it's built to sit
-  underneath this one.
+- The **Foundation kit** —
+  [second-brain-agent](https://github.com/YOUR_USERNAME/second-brain-agent) — is
+  the companion that gives the AI a memory across sessions and learns your voice
+  and taste. If you want the AI to remember your project between sessions and
+  sound like you, set that up too — it's built to sit underneath this one, and
+  once it's installed, `/loop-and-gate` uses it automatically (it reads your
+  voice/taste profiles and logs your gate decisions there).
 
 ---
 

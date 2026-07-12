@@ -76,10 +76,14 @@ and you just fail faster, with nicer tooling.
 
 ## Two things this sits next to
 
-- **The Foundation kit** (second-brain-agent) is the ground this stands on:
-  cross-session memory, capture, and your voice/taste profiles. If it's present,
-  the operating skill reads `vault/Profiles/` so gate framing matches how you
-  write and judge. This kit works without it, but they're built to compose.
+- **The Foundation kit** — [second-brain-agent](https://github.com/YOUR_USERNAME/second-brain-agent)
+  — is the ground this stands on: cross-session memory, capture from your phone,
+  and your voice/taste profiles. If it's present, the operating skill reads
+  `vault/Profiles/` so gate framing matches how you write and judge, and logs each
+  gate decision so your reasoning compounds across sessions. This kit works
+  without it, but they're built to compose — and the Foundation kit is the gentler
+  on-ramp, so **if you're new, start there** (it walks you through installing
+  Claude Code) and add this kit on top.
 - **The field guide** is the narrative version of the gates, with a worked example
   carried through the whole build of one real product. This kit is the terse,
   runnable form of the same eleven gates.
