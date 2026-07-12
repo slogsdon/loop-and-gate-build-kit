@@ -38,6 +38,23 @@ Then, at any build decision, invoke `loop-and-gate`. It runs **Gate ∞** first 
 decide how much process the change earns, then walks you through only the gates
 that change actually needs.
 
+## What it looks like
+
+A customer reports the lead export is missing a field. You invoke `loop-and-gate`:
+
+- **Gate ∞ first.** The skill asks what breaks if this is wrong and whether it's
+  reversible. Export change, no money or auth, reversible → it earns a few gates,
+  not all ten.
+- **Gate 1.** Who asked, why it matters, what "fixed" means to them. Your call.
+- **Gate 3.** Approve the plan — and it makes the agent list what it's *not* doing,
+  which surfaces the missing backfill for existing rows.
+- **Gate 6.** "If this breaks next month, what turns red?" No answer → it's a demo,
+  send it back for a real assertion.
+- **Gate 9.** Ship to the customer who asked first, tell them, then widen.
+
+A one-line copy fix, run through the same skill, earns two gates and ships in
+minutes. That difference is Gate ∞ doing its job.
+
 ## The one rule
 
 The kit doesn't decide for you. It surfaces the call, applies the heuristics, puts

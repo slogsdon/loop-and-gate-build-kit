@@ -63,7 +63,9 @@ For each gate in the chosen set, in order:
   same process everywhere; Gate ∞ resets it each time.
 - If a Foundation kit is present, read `vault/Profiles/` for the human's voice and
   taste so gate framing and any drafted customer notes match how they'd write and
-  judge.
+  judge. Log each gate decision — the call and the one-line why — to the vault
+  (the day's note, or the capture/inbox path) so the reasoning compounds across
+  sessions instead of evaporating. Gate ∞'s chosen set is worth logging too.
 
 ## The pipeline underneath
 
