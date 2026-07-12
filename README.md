@@ -22,8 +22,8 @@ disposable appendix.**
 |------|-----------|
 | `reference/gates.md` | The eleven gates in runnable checklist form — the core asset. |
 | `skills/loop-and-gate/` | The operating skill: run a change through the gates it earns. |
-| `reference/pipeline-snapshot.md` | *(coming)* A dated snapshot of the public plugins that fill the space between the gates. Labelled disposable on purpose. |
-| `templates/business-context.md` | *(coming)* A fill-in template for the business-context step (persona, opportunity, KPIs, GTM, risk). |
+| `reference/pipeline-snapshot.md` | A dated snapshot of the public plugins that fill the space between the gates, with install commands. Labelled disposable on purpose. |
+| `templates/business-context.md` | A fill-in template for the business-context step (persona, opportunity, KPIs, GTM, risk). |
 
 ## Install
 
@@ -57,6 +57,6 @@ and you just fail faster, with nicer tooling.
 
 ## Status
 
-Early. The gates reference and the operating skill are here (the asset). The
-pipeline snapshot, the business-context template, and the compose-your-own guide
-are next.
+The asset (gates reference + operating skill), the business-context template, and
+the pipeline snapshot with compose-your-own guide are all here. Next: glue to read
+the Foundation kit's voice/taste profiles, and a final package pass.
