@@ -25,30 +25,33 @@ disposable appendix.**
 | `skills/loop-and-gate/` | The operating skill: run a change through the gates it earns. |
 | `reference/pipeline-snapshot.md` | A dated snapshot of the public plugins that fill the space between the gates, with install commands. Labelled disposable on purpose. |
 | `templates/business-context.md` | A fill-in template for the business-context step (persona, opportunity, KPIs, GTM, risk). |
-| `scripts/setup.sh` | Installs the skill and prints the two plugin commands. Run once. |
+| `.claude-plugin/` | Marketplace + plugin manifest — lets you install this kit via `/plugin marketplace add`. |
+| `scripts/setup.sh` | Optional convenience for the terminal/clone path. Not needed for plugin install. |
 
 ## Install
 
 **New to this?** Read **[GETTING-STARTED.md](GETTING-STARTED.md)** — it assumes no
 coding background and no terminal experience, and gets you from nothing to your
-first build (installing Claude Code, the pipeline plugins, and this kit).
+first build using the Claude Code Desktop app.
 
-**Already run Claude Code?** Clone this repo and run setup:
+**Have Claude Code? Install it as a plugin — no clone, no setup.** In the Code chat
+(Desktop app, web, or CLI), type:
 
-```bash
-git clone https://github.com/slogsdon/loop-and-gate-build-kit.git
-cd loop-and-gate-build-kit && ./scripts/setup.sh
+```
+/plugin marketplace add slogsdon/loop-and-gate-build-kit
 ```
 
-`setup.sh` installs the `loop-and-gate` skill and prints the two plugin commands
-to paste into Claude Code (the build pipeline the gates sit on — see
-`reference/pipeline-snapshot.md`). Then, at any build decision, run
-`/loop-and-gate`: it runs **Gate ∞** first to decide how much process the change
-earns, then walks you through only the gates that change actually needs.
+then click **Install** on the menu that appears. The `loop-and-gate` skill is now
+available: run `/loop-and-gate` at any build decision — it runs **Gate ∞** first to
+size the change, then walks you through only the gates that change actually needs.
 
-You need the pipeline plugins too — the gates are the judgment layer *on top of*
-a build loop, not the loop itself. The setup script and getting-started guide
-both walk you through installing them.
+You also need the **build pipeline** the gates sit on top of (the gates are the
+judgment layer, not the loop itself) — two free public plugins, `superpowers` and
+`agent-skills`. GETTING-STARTED and `reference/pipeline-snapshot.md` list the exact
+install commands.
+
+**Prefer the terminal?** `git clone` this repo and use the `loop-and-gate` skill
+directly. `scripts/setup.sh` is an optional convenience for that path.
 
 ## What it looks like
 
