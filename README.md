@@ -79,6 +79,8 @@ and you just fail faster, with nicer tooling.
 
 ## What this sits next to
 
+- **The whole stack** — [Loop & Gate](https://shane.logsdon.io/loop-and-gate/) — the
+  overview: the mental model, all four pieces, and how to install them together.
 - **The Grow Kit** — [loop-and-gate-grow-kit](https://github.com/slogsdon/loop-and-gate-grow-kit)
   — is the other half of the loop. This kit takes an idea to shipped software. The
   Grow Kit takes shipped software to the right people and reads whether it worked.
