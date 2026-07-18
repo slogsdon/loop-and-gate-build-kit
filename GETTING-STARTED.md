@@ -32,7 +32,7 @@ voice/taste — more at the end.
 At [claude.ai](https://claude.ai), make sure you're on **Pro** or **Max**. This is
 the step people miss, and nothing works without it.
 
-## Step 2 — install the Claude Code Desktop app
+## Step 2 — install the Claude desktop app
 
 A normal app you double-click to install, no terminal.
 
@@ -99,6 +99,9 @@ Tell it what you want to build, in plain words. It will:
   `/loop-and-gate` uses it automatically. It has its own no-terminal guide.
 - **`reference/gates.md`** (inside the plugin) — the full eleven-gate list in plain
   language, each with a "what to do if this isn't your strength."
+- **Across your devices.** Kick off or steer a build from your phone or tablet, not
+  just your desk. The Foundation's [Working across devices](https://github.com/slogsdon/second-brain-agent#working-across-devices)
+  guide — Remote Control, Dispatch, and keeping notes in sync — applies here too.
 
 ## Prefer the terminal?
 

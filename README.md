@@ -32,7 +32,7 @@ disposable appendix.**
 
 **New to this?** Read **[GETTING-STARTED.md](GETTING-STARTED.md)** — it assumes no
 coding background and no terminal experience, and gets you from nothing to your
-first build using the Claude Code Desktop app.
+first build using the Claude desktop app.
 
 **Have Claude Code? Install it as a plugin — no clone, no setup.** In the Code chat
 (Desktop app, web, or CLI), type:
