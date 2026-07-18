@@ -95,6 +95,10 @@ and you just fail faster, with nicer tooling.
   without it, but they're built to compose — and the Foundation kit is the gentler
   on-ramp, so **if you're new, start there** (it walks you through installing
   Claude Code) and add this kit on top.
+- **Across your devices** — the Foundation's [Working across devices](https://github.com/slogsdon/second-brain-agent#working-across-devices)
+  guide applies here too. Gate decisions and logs land in the same vault, so the
+  same Remote Control, sync, and worktree discipline runs this kit from your
+  phone, tablet, or desk — nothing kit-specific to set up.
 - **The field guide** is the narrative version of the gates, with a worked example
   carried through the whole build of one real product. This kit is the terse,
   runnable form of the same eleven gates.
