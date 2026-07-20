@@ -1,5 +1,7 @@
 # Loop & Gate — Build Kit
 
+[![Listed on ClaudePluginHub](https://www.claudepluginhub.com/badge/slogsdon-loop-and-gate-build-kit)](https://www.claudepluginhub.com/plugins/slogsdon-loop-and-gate-build-kit?ref=badge)
+
 A judgment layer for building software with an agentic loop. Anyone can install
 the tools that write code. Almost nobody knows **where to intervene**. This kit
 is the map of those points — the gates — and how to work each one, even the ones
@@ -63,6 +65,16 @@ install commands.
 
 **Prefer the terminal?** `git clone` this repo and use the `loop-and-gate` skill
 directly. `scripts/setup.sh` is an optional convenience for that path.
+
+## Usage
+
+```
+/loop-and-gate        # run any build decision through the gates it earns
+```
+
+**Gate ∞** runs first to size the change, then the skill walks you through only
+the gates that change actually needs — a one-line copy fix earns two gates, a
+schema migration earns most of them. Worked example below.
 
 ## What it looks like
 
