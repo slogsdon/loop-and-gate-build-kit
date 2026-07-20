@@ -61,7 +61,7 @@ For each gate in the chosen set, in order:
   automates it.
 - **Match rigor to blast radius, not to habit.** The same change doesn't get the
   same process everywhere. Gate ∞ resets it each time.
-- If the Foundation kit (second-brain-agent) is present, read `vault/Profiles/` for
+- If the Foundation kit (loop-and-gate-foundation) is present, read `vault/Profiles/` for
   the human's voice and taste so gate framing and any drafted customer notes match
   how they'd write and judge. Log each gate decision — the call and the one-line why — to the vault
   (the day's note, or the capture/inbox path) so the reasoning compounds across

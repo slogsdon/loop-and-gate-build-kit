@@ -94,13 +94,13 @@ Tell it what you want to build, in plain words. It will:
 ## Going further
 
 - **The Foundation kit** —
-  [second-brain-agent](https://github.com/slogsdon/second-brain-agent) — gives the
+  [loop-and-gate-foundation](https://github.com/slogsdon/loop-and-gate-foundation) — gives the
   AI a memory across sessions and learns your voice and taste. Once it's set up,
   `/loop-and-gate` uses it automatically. It has its own no-terminal guide.
 - **`reference/gates.md`** (inside the plugin) — the full eleven-gate list in plain
   language, each with a "what to do if this isn't your strength."
 - **Across your devices.** Kick off or steer a build from your phone or tablet, not
-  just your desk. The Foundation's [Working across devices](https://github.com/slogsdon/second-brain-agent#working-across-devices)
+  just your desk. The Foundation's [Working across devices](https://github.com/slogsdon/loop-and-gate-foundation#working-across-devices)
   guide — Remote Control, Dispatch, and keeping notes in sync — applies here too.
 
 ## Prefer the terminal?

@@ -55,6 +55,6 @@ a human has to decide — that's the whole idea.
 Full walkthrough with nothing assumed: see GETTING-STARTED.md
 
 Want the AI to remember your project between sessions and sound like you?
-Install the companion Foundation kit (second-brain-agent) underneath this one:
-  https://github.com/slogsdon/second-brain-agent
+Install the companion Foundation kit (loop-and-gate-foundation) underneath this one:
+  https://github.com/slogsdon/loop-and-gate-foundation
 EOF

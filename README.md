@@ -16,6 +16,17 @@ good software. Work them badly and the best tools on the market ship you a fast,
 tested, well-reviewed mistake. **The gates are the asset. The tools are a
 disposable appendix.**
 
+## What this is / what it's not
+
+**It is** the human-decision gates for an agentic build loop — a runnable gates
+reference (`reference/gates.md`) plus the `loop-and-gate` skill that runs a
+change through only the gates it earns.
+
+**It is not** the build tooling itself (it sits *on top of* the `superpowers` +
+`agent-skills` pipeline — the disposable appendix), and it is not an autopilot:
+every gate stops for your decision. Skip them and you just fail faster with
+nicer tooling.
+
 ## What's in here
 
 | Path | What it is |
@@ -87,7 +98,7 @@ and you just fail faster, with nicer tooling.
   They close a loop through the Foundation vault: the Grow Kit writes market signals
   where this kit's Gate 0 reads them to decide what to build next. Same method, both
   halves, one customer at the center.
-- **The Foundation kit** — [second-brain-agent](https://github.com/slogsdon/second-brain-agent)
+- **The Foundation kit** — [loop-and-gate-foundation](https://github.com/slogsdon/loop-and-gate-foundation)
   — is the ground this stands on: cross-session memory, capture from your phone,
   and your voice/taste profiles. If it's present, the operating skill reads
   `vault/Profiles/` so gate framing matches how you write and judge, and logs each
@@ -95,13 +106,22 @@ and you just fail faster, with nicer tooling.
   without it, but they're built to compose — and the Foundation kit is the gentler
   on-ramp, so **if you're new, start there** (it walks you through installing
   Claude Code) and add this kit on top.
-- **Across your devices** — the Foundation's [Working across devices](https://github.com/slogsdon/second-brain-agent#working-across-devices)
+- **Across your devices** — the Foundation's [Working across devices](https://github.com/slogsdon/loop-and-gate-foundation#working-across-devices)
   guide applies here too. Gate decisions and logs land in the same vault, so the
   same Remote Control, sync, and worktree discipline runs this kit from your
   phone, tablet, or desk — nothing kit-specific to set up.
 - **The field guide** is the narrative version of the gates, with a worked example
   carried through the whole build of one real product. This kit is the terse,
   runnable form of the same eleven gates.
+
+## Contributing
+
+Issues and pull requests are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md)
+for how to report bugs, propose gate or skill changes, and the PR conventions.
+One thing up front: the gates are the asset, so PRs that remove a gate or
+auto-approve one will be declined. See also the
+[Code of Conduct](CODE_OF_CONDUCT.md) and the
+[security policy](.github/SECURITY.md).
 
 ## Status
 
