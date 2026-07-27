@@ -19,18 +19,25 @@ change actually earns.
 
 _Lens: Both, and above the others. The master gate._
 
-- **Decide:** Right-size the process to the stakes. A typo fix doesn't get a spec
-  and a security pass. A billing change or a data migration gets all of it.
+- **Decide:** Right-size the process to the stakes — and pick the shape of the run.
+  How *deep*: a typo fix doesn't get a spec and a security pass, a billing change
+  gets all of it. How *wide*: one agent working the job, or many working
+  independent pieces of it at once.
 - **Good judgment:** Read the blast radius first and let it set the process. Two
   gates for a copy tweak, all ten for anything touching money or data. Never
-  confuse "I did all the steps" with "I did the right steps."
+  confuse "I did all the steps" with "I did the right steps." On width, the test is
+  whether two pieces of the job genuinely don't need each other's output — if you
+  can't name two, it's one loop, and running it wide just costs more.
 - **Not your lens:** This is the one gate you can't hand to the agent — it's the
   decision about how much to trust the agent. Heuristic: touches money, customer
   data, auth, or anything you can't cleanly undo → run the full set. Cosmetic and
   reversible → run the minimum. Unsure → treat it as higher-stakes than it looks.
+  Default to one agent; going wide is the exception you argue for, not the
+  starting point (`reference/fan-out.md` is that argument when you need it).
 - **Failure modes:** Full ceremony on everything until you abandon the process.
   Minimum process on everything until something irreversible breaks. Deciding by
-  mood instead of by stakes.
+  mood instead of by stakes. Fanning out work that was sequential all along, and
+  paying a fleet to run a queue.
 
 ---
 
@@ -148,10 +155,13 @@ _Lens: Engineering._
   attempts are variations of the same thing, it's stuck — interrupt, make it
   explain what it's trying and change approach rather than retry. For silent
   decisions, periodically ask "what did you decide here that I didn't tell you
-  to." An over-engineering review agent holds the DRY/YAGNI line for you.
+  to." An over-engineering review agent holds the DRY/YAGNI line for you. If the
+  run went wide, ask one more: "how many pieces came back, out of how many you
+  started?"
 - **Failure modes:** Letting a stuck loop run because it "might get there." Missing
   the buried decision until it's baked in. Intervening so early the agent never
-  works.
+  works. In a wide run, the quiet one: a piece that died returns nothing, nothing
+  stalls, and the summary reads complete because it only counted what answered.
 
 ---
 
@@ -166,7 +176,9 @@ _Lens: Engineering. Where a non-developer running a loop gets burned the most._
   against the Gate 1 acceptance criterion. For anything user-facing, insist on a
   deterministic browser test over the agent's one-off click-through — the agent
   testing its own work in-session proves the code ran once, not that it works.
-  Spend rigor in proportion to blast radius.
+  The same rule covers reviewers, not just tests: a checker that read the worker's
+  session is agreeing, not checking. Give it the finding and the evidence, never
+  the chat that produced them. Spend rigor in proportion to blast radius.
 - **Not your lens:** You don't have to write the test to judge it. Ask the agent:
   "if this breaks next month, what fails and turns red?" If the answer is "nothing
   automatic," it's a demo, not evidence. Make it show the assertion and name the
@@ -192,9 +204,13 @@ _Lens: Engineering._
 - **Not your lens:** You don't need to be an infra expert to ask "what does this
   cost per run, and is there a cheaper model that's good enough here?" Make the
   agent propose a cheaper tier and justify when the expensive one is required. Set
-  a budget ceiling so a runaway loop stops instead of surprising you.
+  a budget ceiling so a runaway loop stops instead of surprising you. If Gate ∞
+  chose a wide run, that ceiling is an agent cap you state *before* the run — a
+  fleet is the only shape here that can spend serious money while you're not
+  watching.
 - **Failure modes:** Frontier model on every trivial call. Building for scale you
-  don't have. Never looking at the bill until it's a problem.
+  don't have. Never looking at the bill until it's a problem. Widening a run that
+  worked at ten agents to a hundred without pricing the first one.
 
 ---
 

@@ -26,8 +26,12 @@ working gates on every change.
      minimum: "is this the right small fix?" and "ship it." Usually two gates.
    - **Unsure** → treat it as higher-stakes than it looks. Over-processing a small
      thing costs minutes. Under-processing a big one costs the weekend.
-3. State the chosen gate set to the human before proceeding. That statement is
-   itself the Gate ∞ decision.
+3. Size the width too, in one line: can you name two pieces of this job that
+   don't need each other's output? If not, it's one loop — say so and move on.
+   If yes and the breadth is worth paying for, read `reference/fan-out.md` and
+   gate the split before anything fans out.
+4. State the chosen gate set — and the depth/width call — to the human before
+   proceeding. That statement is itself the Gate ∞ decision.
 
 ## Working a gate
 

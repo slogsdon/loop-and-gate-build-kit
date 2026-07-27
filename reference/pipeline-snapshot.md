@@ -34,6 +34,7 @@ are both public and free.
 | 5 Off the rails | Build | `superpowers:test-driven-development`, `superpowers:systematic-debugging`; `ponytail` for over-engineering review | **Yes** |
 | 6 Does the test prove it | Validate | `superpowers:verification-before-completion`, `agent-skills:browser-testing-with-devtools` | **Yes** |
 | 7 Is the cost right | Validate | — none. Model routing + reading the bill. Pure judgment. | n/a |
+| 4–5 wide runs (repo sweeps, audits) | Build | Claude Code's own workflow orchestration — no install. See `reference/fan-out.md` | **Built in** |
 | 8 Risk acceptable to ship | Validate | `superpowers:requesting-code-review` + `receiving-code-review`, `agent-skills:security-and-hardening` | **Yes** |
 | 9 Ship now, to whom | Ship | `agent-skills:shipping-and-launch`, `superpowers:finishing-a-development-branch` | **Yes** |
 | ∞ How much process | (meta) | — none. You decide how much loop to run. | n/a |

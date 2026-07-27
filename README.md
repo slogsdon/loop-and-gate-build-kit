@@ -36,6 +36,7 @@ nicer tooling.
 | `GETTING-STARTED.md` | Zero-assumptions walkthrough — start here if you're new to any of this. |
 | `reference/gates.md` | The eleven gates in runnable checklist form — the core asset. |
 | `skills/loop-and-gate/` | The operating skill: run a change through the gates it earns. |
+| `reference/fan-out.md` | Sub-reference for Gate ∞'s "how wide" call — when running many agents at once earns it, and where the gates sit when it does. |
 | `reference/pipeline-snapshot.md` | A dated snapshot of the public plugins that fill the space between the gates, with install commands. Labelled disposable on purpose. |
 | `templates/business-context.md` | A fill-in template for the business-context step (persona, opportunity, KPIs, GTM, risk). |
 | `.claude-plugin/` | Marketplace + plugin manifest — lets you install this kit via `/plugin marketplace add`. |
