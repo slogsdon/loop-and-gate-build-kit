@@ -127,5 +127,8 @@ That's Gate 7, and it's the gate a wide run fails most often.
 Claude Code runs this shape natively — describing the job as a *workflow* gets you
 an orchestration script and a coordinated set of sub-agents, with results passed
 as data rather than conversation, so the intermediate output never lands in your
-session. Nothing to install. As always: the seams and the gates are the asset,
+session. Nothing to install. On pi, the `subagent` tool from
+[pi-subagents](https://www.npmjs.com/package/pi-subagents) covers the same shape
+with its parallel and chain modes (the Foundation offers to install it, or run
+`pi install npm:pi-subagents`). As always: the seams and the gates are the asset,
 the tool is the appendix.

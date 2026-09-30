@@ -10,7 +10,9 @@ the decision well. The agent runs the stretches between gates. This skill runs
 the gates.
 
 The full checklist for every gate is in `reference/gates.md` — read it when you
-reach a gate. This skill is how you *operate* it.
+reach a gate. This skill is how you *operate* it. Every `reference/…` path here is
+relative to the kit root, two levels above this SKILL.md
+(`../../reference/gates.md`).
 
 ## Always start with Gate ∞
 
