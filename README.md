@@ -40,6 +40,7 @@ nicer tooling.
 | `reference/pipeline-snapshot.md` | A dated snapshot of the public plugins that fill the space between the gates, with install commands. Labelled disposable on purpose. |
 | `templates/business-context.md` | A fill-in template for the business-context step (persona, opportunity, KPIs, GTM, risk). |
 | `.claude-plugin/` | Marketplace + plugin manifest — lets you install this kit via `/plugin marketplace add`. |
+| `package.json` | pi package manifest — lets you install this kit via `pi install`. |
 | `scripts/setup.sh` | Optional convenience for the terminal/clone path. Not needed for plugin install. |
 
 ## Install
@@ -63,6 +64,15 @@ You also need the **build pipeline** the gates sit on top of (the gates are the
 judgment layer, not the loop itself) — two free public plugins, `superpowers` and
 `agent-skills`. GETTING-STARTED and `reference/pipeline-snapshot.md` list the exact
 install commands.
+
+**Using pi?** One command, no clone:
+
+```bash
+pi install git:github.com/slogsdon/loop-and-gate-build-kit
+```
+
+Then run `/skill:loop-and-gate`. The pi install lines for the pipeline are in
+`reference/pipeline-snapshot.md`.
 
 **Prefer the terminal?** `git clone` this repo and use the `loop-and-gate` skill
 directly. `scripts/setup.sh` is an optional convenience for that path.

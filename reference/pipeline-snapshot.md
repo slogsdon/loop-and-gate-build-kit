@@ -61,6 +61,13 @@ Two honest read-outs:
 /plugin install agent-skills@addy-agent-skills
 ```
 
+On pi, the same core is two `pi install`s:
+
+```bash
+pi install git:github.com/obra/superpowers
+pi install git:github.com/addyosmani/agent-skills
+```
+
 Optional augments, running alongside the core (not replacing a gate skill):
 
 ```bash
@@ -75,6 +82,14 @@ Optional augments, running alongside the core (not replacing a gate skill):
 # accessibility / web quality — feeds the Grow side more than a build gate
 /plugin marketplace add addyosmani/web-quality-skills
 /plugin install web-quality-skills@addy-web-quality-skills
+```
+
+On pi:
+
+```bash
+pi install git:github.com/max-sixty/worktrunk
+pi install git:github.com/DietrichGebert/ponytail
+pi install git:github.com/addyosmani/web-quality-skills
 ```
 
 ## Compose your own
