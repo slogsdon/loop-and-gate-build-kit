@@ -10,6 +10,23 @@ repo="$(pwd)"
 echo "== Loop & Gate Build Kit — setup =="
 echo ""
 
+# 0. pi instead of Claude Code? pi installs the kit and its pipeline as packages,
+#    so there's nothing to symlink — just hand off the commands.
+if ! command -v claude >/dev/null 2>&1 && command -v pi >/dev/null 2>&1; then
+  echo "ok: pi found ($(pi --version 2>/dev/null | head -1))"
+  cat <<EOF
+
+In your terminal, install the kit and the build pipeline:
+
+  pi install $repo
+  pi install git:github.com/obra/superpowers
+  pi install git:github.com/addyosmani/agent-skills
+
+Then start pi and type:  /skill:loop-and-gate
+EOF
+  exit 0
+fi
+
 # 1. Claude Code present?
 if ! command -v claude >/dev/null 2>&1; then
   echo "MISSING: Claude Code isn't installed yet."
